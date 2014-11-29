@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Networking\NetworkManager.cs">
+    <Files>
+      <File FileName="..\..\..\..\..\..\..\Documents\New Unity Project 3\Assets\Scripts\IntVector2.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\..\..\Documents\New Unity Project 3\Assets\Scripts\MazeCell.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\..\BSG Youtube\Unity 2D RPG\Game\Assets\Code\HUD\HUDController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Networking\NetworkManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
