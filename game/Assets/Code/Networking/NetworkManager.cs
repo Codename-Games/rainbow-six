@@ -194,7 +194,6 @@ public class NetworkManager : MonoBehaviour {
 		{
 			if(GUI.Button(new Rect(Screen.width - 50, 0, 50, 20), "Spawn"))
 			{
-				myPlayer.manager.FirstPersonCont.Spawn();
 				int SpawnIndex = Random.Range(0, LevelManager.instance.SpawnPoints.Length - 1);
 				myPlayer.manager.FirstPerson.localPosition = LevelManager.instance.SpawnPoints[SpawnIndex].transform.position;
 				myPlayer.manager.FirstPerson.localRotation = LevelManager.instance.SpawnPoints[SpawnIndex].transform.rotation;
