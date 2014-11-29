@@ -189,8 +189,8 @@ public class PlayerController : MonoBehaviour {
 		{
 			stream.Serialize(ref CurPos);
 			stream.Serialize(ref CurRot);
-			ThirdPerson.position = Mathf.Lerp(ThirdPerson.position, CurPos, (Time.time * 0.5f));
-			ThirdPerson.rotation = Mathf.Lerp(ThirdPerson.rotation, CurRot, (Time.time * 0.5f));
+			ThirdPerson.position = Vector3.Lerp(ThirdPerson.position, CurPos, (Time.time * 0.5f));
+			ThirdPerson.rotation = Quaternion.Lerp(ThirdPerson.rotation, CurRot, (Time.time * 0.5f));
 			//char Ani = (char)0;
 			//stream.Serialize(ref Ani);
 			//GetComponent<NetworkAnimStates>().CurrentAnim = (Animations)Ani;
