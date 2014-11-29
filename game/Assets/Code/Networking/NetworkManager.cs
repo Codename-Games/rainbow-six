@@ -130,6 +130,20 @@ public class NetworkManager : MonoBehaviour {
 	public void LoadLevel(string loadName)
 	{
 		matchStarted = true;
+		int checkIndex = 0;
+		foreach(Player pl in Network.instance.PlayerList)
+		{
+			if(checkIndex == 0)
+			{
+				pl.Team = 0;
+				checkIndex = 1;
+			}
+			else
+			{
+				pl.Team = 1;
+				checkIndex = 0;
+			}
+		}
 		Application.LoadLevel(loadName);
 	}
 	
