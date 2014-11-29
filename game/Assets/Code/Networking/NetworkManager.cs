@@ -131,7 +131,7 @@ public class NetworkManager : MonoBehaviour {
 	{
 		matchStarted = true;
 		int checkIndex = 0;
-		foreach(Player pl in Network.instance.PlayerList)
+		foreach(Player pl in instance.PlayerList)
 		{
 			if(checkIndex == 0)
 			{

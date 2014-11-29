@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour {
 	public CharacterMotor CharMotor;
 	public Transform ThirdPerson;
 	public Player MyPlayer;
-	public Vector3 CurPos;
-	public Quaternion CurRot;
+	public Vector3 CurPos, lastPos;
+	public Quaternion CurRot, lastRot;
 	public GameObject deadRag;
 
 	public WalkingState walkingstate = WalkingState.Idle;
@@ -39,6 +39,9 @@ public class PlayerController : MonoBehaviour {
 		FirstPerson.gameObject.SetActive(false);
 		ThirdPerson.gameObject.SetActive(false);
 		DontDestroyOnLoad(gameObject);
+
+		lastRot = CurRot;
+		lastPos = CurPos;
 	}
 
 	[RPC]
@@ -186,8 +189,8 @@ public class PlayerController : MonoBehaviour {
 		{
 			stream.Serialize(ref CurPos);
 			stream.Serialize(ref CurRot);
-			ThirdPerson.position = CurPos;
-			ThirdPerson.rotation = CurRot;
+			ThirdPerson.position = Mathf.Lerp(ThirdPerson.position, CurPos, (Time.time * 0.5f));
+			ThirdPerson.rotation = Mathf.Lerp(ThirdPerson.rotation, CurRot, (Time.time * 0.5f));
 			//char Ani = (char)0;
 			//stream.Serialize(ref Ani);
 			//GetComponent<NetworkAnimStates>().CurrentAnim = (Animations)Ani;
