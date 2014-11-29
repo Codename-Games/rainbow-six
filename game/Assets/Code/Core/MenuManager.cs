@@ -43,7 +43,7 @@ public class MenuManager : MonoBehaviour {
 
 	void Main () {
 		if (GUI.Button (new Rect (0, 0, 128, 32), "Host Game")) {
-			ToMenu ("Host")
+			ToMenu ("Host");
 		}
 
 		name = GUI.TextField (new Rect(130, 0, 128, 32), name);
@@ -63,23 +63,70 @@ public class MenuManager : MonoBehaviour {
 		}
 
 		if (GUI.Button(new Rect (0, 33, 128, 32), "Main Menu")) {
-			ToMenu ("Main")
+			ToMenu ("Main");
 		}
 
 		if (GUI.Button(new Rect (0, 66, 128, 32), "Choose Map")) {
-			ToMenu ("Levels")
+			ToMenu ("Levels");
 		}
 	}
 
 	void Lobby () {
+		if (Network.isServer) 
+		{
+			if(GUI.Button (new Rect(Screen.width - 128, Screen.height - 64, 128, 32), "Start Match")){
+				NetworkManager.instance.networkView.RPC ("LoadLevel", RPCMode.All, "test");
+			}
 
+		}
+
+		if(GUI.Button(new Rect(Screen.width - 128, Screen.height - 32, 128, 32), "Disconnect")){
+			Network.Disconnect();
+			ToMenu ("Main");
+		}
+
+		GUILayout.BeginArea(new Rect(0, 0, 128, Screen.height), "Players");
+		GUILayout.Space(20);
+		foreach(Player pl in NetworkManager.instance.PlayerList){
+			GUILayout.BeginHorizontal();
+			GUI.color = Color.blue;
+			GUILayout.Box(pl.playerName);
+			GUILayout.EndHorizontal();
+		}
 	}
 
 	void MatchList () {
+		if (GUI.Button (new Rect (0, 0, 128, 32), "Refresh")) {
+			MasterServer.RequestHostList("RainbowSix");
+		}
 
+		if (GUI.Button (new Rect (0, 33, 128, 32), "Main Menu")) {
+			ToMenu("Main");
+			}
+
+		GUILayout.BeginArea (new Rect (Screen.width / 2, 0, Screen.width / 2, Screen.height), "Server List", "box");
+
+		foreach(HostData hd in MasterServer.PollHostList ()) {
+			GUILayout.BeginHorizontal();
+			GUILayout.Label (hd.gameName);
+			if(GUILayout.Button ("Connect")){
+				Network.Connect (hd) ;
+				ToMenu ("Lobby");
+			}
+			GUILayout.EndHorizontal();
+		}
+
+		GUILayout.EndArea ();
 	}
 
 	void Levels () {
+		foreach (Level lvl in NetworkManager.instance.ListOfLevels) {
+			if(GUILayout.Button (lvl.PlayName))
+				NetworkManager.instance.curLevel = lvl;
+		}
+
+		if (GUILayout.Button ("Back"))
+						ToMenu ("Host");
 
 	}
 }
