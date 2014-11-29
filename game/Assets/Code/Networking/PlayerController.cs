@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour {
 	public float RunSpeed;
 	public float VelocityMagnitude;
 
+	public Material swatMat, isisMat;
+	public Renderer thirdMat;
+
 	public bool WasStanding;
 
 	void Start () {
@@ -24,6 +27,14 @@ public class PlayerController : MonoBehaviour {
 		{
 			MyPlayer = NetworkManager.getPlayer(networkView.owner);
 			MyPlayer.manager = this;
+		}
+		if(MyPlayer.Team == 0)
+		{
+			thirdMat.material = swatMat;
+		}
+		else
+		{
+			thirdMat.material = isisMat;
 		}
 		FirstPerson.gameObject.SetActive(false);
 		ThirdPerson.gameObject.SetActive(false);
@@ -130,6 +141,14 @@ public class PlayerController : MonoBehaviour {
 	{
 		MyPlayer.isAlive = true;
 		MyPlayer.Health = 100;
+		if(MyPlayer.Team == 0)
+		{
+			thirdMat.material = swatMat;
+		}
+		else
+		{
+			thirdMat.material = isisMat;
+		}
 		if(networkView.isMine)
 		{
 			FirstPerson.gameObject.SetActive(true);
