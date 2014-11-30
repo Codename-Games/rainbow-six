@@ -77,6 +77,9 @@ public class PlayerController : MonoBehaviour {
 		SpeedController();
 		AnimationController();
 		VelocityMagnitude = CharCont.velocity.magnitude;
+
+		if(Input.GetKeyDown (KeyCode.K))
+			networkView.RPC ("Die", RPCMode.Server);
 	}
 
 	public void SpeedController()
