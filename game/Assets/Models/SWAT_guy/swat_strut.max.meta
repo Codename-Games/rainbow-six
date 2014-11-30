@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: d1a4f70009f809343afd83b6e6785331
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Camera01
+    100004: Camera01.Target
+    100006: Line01
+    100008: LOWmesh
+    100010: Plane01
+    100012: SWAT
+    100014: SWAT Footsteps
+    100016: SWAT Head
+    100018: SWAT HeadNub
+    100020: SWAT L Calf
+    100022: SWAT L Clavicle
+    100024: SWAT L Finger0
+    100026: SWAT L Finger01
+    100028: SWAT L Finger02
+    100030: SWAT L Finger0Nub
+    100032: SWAT L Finger1
+    100034: SWAT L Finger11
+    100036: SWAT L Finger12
+    100038: SWAT L Finger1Nub
+    100040: SWAT L Finger2
+    100042: SWAT L Finger21
+    100044: SWAT L Finger22
+    100046: SWAT L Finger2Nub
+    100048: SWAT L Finger3
+    100050: SWAT L Finger31
+    100052: SWAT L Finger32
+    100054: SWAT L Finger3Nub
+    100056: SWAT L Finger4
+    100058: SWAT L Finger41
+    100060: SWAT L Finger42
+    100062: SWAT L Finger4Nub
+    100064: SWAT L Foot
+    100066: SWAT L Forearm
+    100068: SWAT L Hand
+    100070: SWAT L Thigh
+    100072: SWAT L Toe0
+    100074: SWAT L Toe0Nub
+    100076: SWAT L UpperArm
+    100078: SWAT Neck
+    100080: SWAT Pelvis
+    100082: SWAT R Calf
+    100084: SWAT R Clavicle
+    100086: SWAT R Finger0
+    100088: SWAT R Finger01
+    100090: SWAT R Finger02
+    100092: SWAT R Finger0Nub
+    100094: SWAT R Finger1
+    100096: SWAT R Finger11
+    100098: SWAT R Finger12
+    100100: SWAT R Finger1Nub
+    100102: SWAT R Finger2
+    100104: SWAT R Finger21
+    100106: SWAT R Finger22
+    100108: SWAT R Finger2Nub
+    100110: SWAT R Finger3
+    100112: SWAT R Finger31
+    100114: SWAT R Finger32
+    100116: SWAT R Finger3Nub
+    100118: SWAT R Finger4
+    100120: SWAT R Finger41
+    100122: SWAT R Finger42
+    100124: SWAT R Finger4Nub
+    100126: SWAT R Foot
+    100128: SWAT R Forearm
+    100130: SWAT R Hand
+    100132: SWAT R Thigh
+    100134: SWAT R Toe0
+    100136: SWAT R Toe0Nub
+    100138: SWAT R UpperArm
+    100140: SWAT Spine
+    100142: SWAT Spine1
+    100144: SWAT Spine2
+    100146: SWAT Spine3
+    100148: //RootNode
+    400000: Box01
+    400002: Camera01
+    400004: Camera01.Target
+    400006: Line01
+    400008: LOWmesh
+    400010: Plane01
+    400012: SWAT
+    400014: SWAT Footsteps
+    400016: SWAT Head
+    400018: SWAT HeadNub
+    400020: SWAT L Calf
+    400022: SWAT L Clavicle
+    400024: SWAT L Finger0
+    400026: SWAT L Finger01
+    400028: SWAT L Finger02
+    400030: SWAT L Finger0Nub
+    400032: SWAT L Finger1
+    400034: SWAT L Finger11
+    400036: SWAT L Finger12
+    400038: SWAT L Finger1Nub
+    400040: SWAT L Finger2
+    400042: SWAT L Finger21
+    400044: SWAT L Finger22
+    400046: SWAT L Finger2Nub
+    400048: SWAT L Finger3
+    400050: SWAT L Finger31
+    400052: SWAT L Finger32
+    400054: SWAT L Finger3Nub
+    400056: SWAT L Finger4
+    400058: SWAT L Finger41
+    400060: SWAT L Finger42
+    400062: SWAT L Finger4Nub
+    400064: SWAT L Foot
+    400066: SWAT L Forearm
+    400068: SWAT L Hand
+    400070: SWAT L Thigh
+    400072: SWAT L Toe0
+    400074: SWAT L Toe0Nub
+    400076: SWAT L UpperArm
+    400078: SWAT Neck
+    400080: SWAT Pelvis
+    400082: SWAT R Calf
+    400084: SWAT R Clavicle
+    400086: SWAT R Finger0
+    400088: SWAT R Finger01
+    400090: SWAT R Finger02
+    400092: SWAT R Finger0Nub
+    400094: SWAT R Finger1
+    400096: SWAT R Finger11
+    400098: SWAT R Finger12
+    400100: SWAT R Finger1Nub
+    400102: SWAT R Finger2
+    400104: SWAT R Finger21
+    400106: SWAT R Finger22
+    400108: SWAT R Finger2Nub
+    400110: SWAT R Finger3
+    400112: SWAT R Finger31
+    400114: SWAT R Finger32
+    400116: SWAT R Finger3Nub
+    400118: SWAT R Finger4
+    400120: SWAT R Finger41
+    400122: SWAT R Finger42
+    400124: SWAT R Finger4Nub
+    400126: SWAT R Foot
+    400128: SWAT R Forearm
+    400130: SWAT R Hand
+    400132: SWAT R Thigh
+    400134: SWAT R Toe0
+    400136: SWAT R Toe0Nub
+    400138: SWAT R UpperArm
+    400140: SWAT Spine
+    400142: SWAT Spine1
+    400144: SWAT Spine2
+    400146: SWAT Spine3
+    400148: //RootNode
+    2300000: Box01
+    2300002: Line01
+    2300004: Plane01
+    3300000: Box01
+    3300002: Line01
+    3300004: Plane01
+    4300000: LOWmesh
+    4300002: Plane01
+    4300004: Line01
+    4300006: Box01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: LOWmesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera01
+        weight: 1
+      - path: Camera01.Target
+        weight: 1
+      - path: LOWmesh
+        weight: 1
+      - path: Plane01
+        weight: 1
+      - path: SWAT
+        weight: 1
+      - path: SWAT/SWAT Footsteps
+        weight: 1
+      - path: SWAT/SWAT Pelvis
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT L Thigh
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT L Thigh/SWAT L Calf
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT L Thigh/SWAT L Calf/SWAT L Foot
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT L Thigh/SWAT L Calf/SWAT L Foot/SWAT
+          L Toe0
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT L Thigh/SWAT L Calf/SWAT L Foot/SWAT
+          L Toe0/SWAT L Toe0Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT R Thigh
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT R Thigh/SWAT R Calf
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT R Thigh/SWAT R Calf/SWAT R Foot
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT R Thigh/SWAT R Calf/SWAT R Foot/SWAT
+          R Toe0
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT R Thigh/SWAT R Calf/SWAT R Foot/SWAT
+          R Toe0/SWAT R Toe0Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT Head
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT Head/Line01
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT Head/SWAT HeadNub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger0
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger0/SWAT
+          L Finger01
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger0/SWAT
+          L Finger01/SWAT L Finger02
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger0/SWAT
+          L Finger01/SWAT L Finger02/SWAT L Finger0Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger1
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger1/SWAT
+          L Finger11
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger1/SWAT
+          L Finger11/SWAT L Finger12
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger1/SWAT
+          L Finger11/SWAT L Finger12/SWAT L Finger1Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger2
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger2/SWAT
+          L Finger21
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger2/SWAT
+          L Finger21/SWAT L Finger22
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger2/SWAT
+          L Finger21/SWAT L Finger22/SWAT L Finger2Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger3
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger3/SWAT
+          L Finger31
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger3/SWAT
+          L Finger31/SWAT L Finger32
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger3/SWAT
+          L Finger31/SWAT L Finger32/SWAT L Finger3Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger4
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger4/SWAT
+          L Finger41
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger4/SWAT
+          L Finger41/SWAT L Finger42
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT L Clavicle/SWAT L UpperArm/SWAT L Forearm/SWAT L Hand/SWAT L Finger4/SWAT
+          L Finger41/SWAT L Finger42/SWAT L Finger4Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/Box01
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger0
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger0/SWAT
+          R Finger01
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger0/SWAT
+          R Finger01/SWAT R Finger02
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger0/SWAT
+          R Finger01/SWAT R Finger02/SWAT R Finger0Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger1
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger1/SWAT
+          R Finger11
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger1/SWAT
+          R Finger11/SWAT R Finger12
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger1/SWAT
+          R Finger11/SWAT R Finger12/SWAT R Finger1Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger2
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger2/SWAT
+          R Finger21
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger2/SWAT
+          R Finger21/SWAT R Finger22
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger2/SWAT
+          R Finger21/SWAT R Finger22/SWAT R Finger2Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger3
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger3/SWAT
+          R Finger31
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger3/SWAT
+          R Finger31/SWAT R Finger32
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger3/SWAT
+          R Finger31/SWAT R Finger32/SWAT R Finger3Nub
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger4
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger4/SWAT
+          R Finger41
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger4/SWAT
+          R Finger41/SWAT R Finger42
+        weight: 1
+      - path: SWAT/SWAT Pelvis/SWAT Spine/SWAT Spine1/SWAT Spine2/SWAT Spine3/SWAT
+          Neck/SWAT R Clavicle/SWAT R UpperArm/SWAT R Forearm/SWAT R Hand/SWAT R Finger4/SWAT
+          R Finger41/SWAT R Finger42/SWAT R Finger4Nub
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

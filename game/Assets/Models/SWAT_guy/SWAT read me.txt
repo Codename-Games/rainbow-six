@@ -1,0 +1,32 @@
+Thank you for purchasing my S.W.A.T. character model! I hope you find it fun and useful!
+A low-mid range poly S.W.A.T. character model, fully rigged using 3dStudio Max's Character Studio Biped.
+
+poly-count=2,648
+vertices=2,569
+
+Included in this folder you will find:
+
+2- 3dsMax files, SWAT_model rigged at rest & SWAT_model strut cycle
+
+2 SWAT meshes- .3ds file and .obj file
+
+9 Texture maps:
+
+SWAT Model-
+*diffuse
+*specularity
+*normal
+
+Shotgun-
+*diffuse
+*specularity
+*normal
+
+Goggles-
+*diffuse
+*specularoty
+*normal
+
+Also included is a morph target for eye blinking!
+
+any questions/comments, email Dave Gibbons- theQiwiMan@hotmail.com

@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 8b967ce9fd8722e47800e017501bdbad
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Line01
+    100004: LOWmesh
+    100006: Plane01
+    100008: SWAT
+    100010: SWAT Footsteps
+    100012: SWAT Head
+    100014: SWAT HeadNub
+    100016: SWAT L Calf
+    100018: SWAT L Clavicle
+    100020: SWAT L Finger0
+    100022: SWAT L Finger01
+    100024: SWAT L Finger02
+    100026: SWAT L Finger0Nub
+    100028: SWAT L Finger1
+    100030: SWAT L Finger11
+    100032: SWAT L Finger12
+    100034: SWAT L Finger1Nub
+    100036: SWAT L Finger2
+    100038: SWAT L Finger21
+    100040: SWAT L Finger22
+    100042: SWAT L Finger2Nub
+    100044: SWAT L Finger3
+    100046: SWAT L Finger31
+    100048: SWAT L Finger32
+    100050: SWAT L Finger3Nub
+    100052: SWAT L Finger4
+    100054: SWAT L Finger41
+    100056: SWAT L Finger42
+    100058: SWAT L Finger4Nub
+    100060: SWAT L Foot
+    100062: SWAT L Forearm
+    100064: SWAT L Hand
+    100066: SWAT L Thigh
+    100068: SWAT L Toe0
+    100070: SWAT L Toe0Nub
+    100072: SWAT L UpperArm
+    100074: SWAT Neck
+    100076: SWAT Pelvis
+    100078: SWAT R Calf
+    100080: SWAT R Clavicle
+    100082: SWAT R Finger0
+    100084: SWAT R Finger01
+    100086: SWAT R Finger02
+    100088: SWAT R Finger0Nub
+    100090: SWAT R Finger1
+    100092: SWAT R Finger11
+    100094: SWAT R Finger12
+    100096: SWAT R Finger1Nub
+    100098: SWAT R Finger2
+    100100: SWAT R Finger21
+    100102: SWAT R Finger22
+    100104: SWAT R Finger2Nub
+    100106: SWAT R Finger3
+    100108: SWAT R Finger31
+    100110: SWAT R Finger32
+    100112: SWAT R Finger3Nub
+    100114: SWAT R Finger4
+    100116: SWAT R Finger41
+    100118: SWAT R Finger42
+    100120: SWAT R Finger4Nub
+    100122: SWAT R Foot
+    100124: SWAT R Forearm
+    100126: SWAT R Hand
+    100128: SWAT R Thigh
+    100130: SWAT R Toe0
+    100132: SWAT R Toe0Nub
+    100134: SWAT R UpperArm
+    100136: SWAT Spine
+    100138: SWAT Spine1
+    100140: SWAT Spine2
+    100142: SWAT Spine3
+    100144: //RootNode
+    400000: Box01
+    400002: Line01
+    400004: LOWmesh
+    400006: Plane01
+    400008: SWAT
+    400010: SWAT Footsteps
+    400012: SWAT Head
+    400014: SWAT HeadNub
+    400016: SWAT L Calf
+    400018: SWAT L Clavicle
+    400020: SWAT L Finger0
+    400022: SWAT L Finger01
+    400024: SWAT L Finger02
+    400026: SWAT L Finger0Nub
+    400028: SWAT L Finger1
+    400030: SWAT L Finger11
+    400032: SWAT L Finger12
+    400034: SWAT L Finger1Nub
+    400036: SWAT L Finger2
+    400038: SWAT L Finger21
+    400040: SWAT L Finger22
+    400042: SWAT L Finger2Nub
+    400044: SWAT L Finger3
+    400046: SWAT L Finger31
+    400048: SWAT L Finger32
+    400050: SWAT L Finger3Nub
+    400052: SWAT L Finger4
+    400054: SWAT L Finger41
+    400056: SWAT L Finger42
+    400058: SWAT L Finger4Nub
+    400060: SWAT L Foot
+    400062: SWAT L Forearm
+    400064: SWAT L Hand
+    400066: SWAT L Thigh
+    400068: SWAT L Toe0
+    400070: SWAT L Toe0Nub
+    400072: SWAT L UpperArm
+    400074: SWAT Neck
+    400076: SWAT Pelvis
+    400078: SWAT R Calf
+    400080: SWAT R Clavicle
+    400082: SWAT R Finger0
+    400084: SWAT R Finger01
+    400086: SWAT R Finger02
+    400088: SWAT R Finger0Nub
+    400090: SWAT R Finger1
+    400092: SWAT R Finger11
+    400094: SWAT R Finger12
+    400096: SWAT R Finger1Nub
+    400098: SWAT R Finger2
+    400100: SWAT R Finger21
+    400102: SWAT R Finger22
+    400104: SWAT R Finger2Nub
+    400106: SWAT R Finger3
+    400108: SWAT R Finger31
+    400110: SWAT R Finger32
+    400112: SWAT R Finger3Nub
+    400114: SWAT R Finger4
+    400116: SWAT R Finger41
+    400118: SWAT R Finger42
+    400120: SWAT R Finger4Nub
+    400122: SWAT R Foot
+    400124: SWAT R Forearm
+    400126: SWAT R Hand
+    400128: SWAT R Thigh
+    400130: SWAT R Toe0
+    400132: SWAT R Toe0Nub
+    400134: SWAT R UpperArm
+    400136: SWAT Spine
+    400138: SWAT Spine1
+    400140: SWAT Spine2
+    400142: SWAT Spine3
+    400144: //RootNode
+    2300000: Box01
+    2300002: Line01
+    2300004: Plane01
+    3300000: Box01
+    3300002: Line01
+    3300004: Plane01
+    4300000: LOWmesh
+    4300002: Box01
+    4300004: Plane01
+    4300006: Line01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: LOWmesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
