@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour {
 	public float RunSpeed;
 	public float VelocityMagnitude;
 
+	public Transform thirdAnimation;
+
 	public Material swatMat, isisMat;
 	public Renderer thirdMat;
 
@@ -161,6 +163,7 @@ public class PlayerController : MonoBehaviour {
 		{
 			FirstPerson.gameObject.SetActive(false);
 			ThirdPerson.gameObject.SetActive (true);
+			thirdAnimation.animation.CrossFade("Take 002");
 		}
 	}
 	
