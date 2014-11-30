@@ -179,12 +179,22 @@ public class PlayerController : MonoBehaviour {
 	
 	void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)
 	{
+		bool moving = false;
 		if(stream.isWriting)
 		{
 			CurPos = FirstPerson.position;
 			CurRot = FirstPerson.rotation;
 			stream.Serialize(ref CurPos);
 			stream.Serialize(ref CurRot);
+			if(walkingstate == WalkingState.Walking || walkingstate == WalkingState.Running)
+			{
+				moving = true;
+			}
+			else
+			{
+				moving = false;
+			}
+			stream.Serialize(ref moving);
 			//char Ani = (char)GetComponent<NetworkAnimStates>().CurrentAnim;
 			//stream.Serialize(ref Ani);
 		}
@@ -192,6 +202,11 @@ public class PlayerController : MonoBehaviour {
 		{
 			stream.Serialize(ref CurPos);
 			stream.Serialize(ref CurRot);
+			stream.Serialize(ref moving);
+			if(moving)
+				thirdAnimation.animation.CrossFade("Take 002");
+			else
+				thirdAnimation.animation.Stop("Take 002");
 			ThirdPerson.position = Vector3.Lerp(ThirdPerson.position, CurPos, (Time.time * 0.5f));
 			ThirdPerson.rotation = Quaternion.Lerp(ThirdPerson.rotation, CurRot, (Time.time * 0.5f));
 			//char Ani = (char)0;
