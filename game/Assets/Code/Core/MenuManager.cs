@@ -13,7 +13,7 @@ public class MenuManager : MonoBehaviour {
 
 	void Start () {
 		instance = this;
-		curMenu = "Host";
+		curMenu = "Main";
 		name = PlayerPrefs.GetString ("name");
 		maxPlayers = 10;
 		matchName = "Server " + Random.Range (0, 99);
@@ -45,6 +45,9 @@ public class MenuManager : MonoBehaviour {
 		if (GUI.Button (new Rect (0, 0, 128, 32), "Host Game")) {
 			ToMenu ("Host");
 		}
+		if (GUI.Button (new Rect (0, 33, 128, 32), "Browse Games")) {
+			ToMenu ("MatchList");
+		}
 
 		name = GUI.TextField (new Rect(130, 0, 128, 32), name);
 		if(GUI.Button (new Rect(258, 0, 128, 32), "Set Name")){
@@ -59,6 +62,7 @@ public class MenuManager : MonoBehaviour {
 
 	void Host () {
 		if (GUI.Button(new Rect (0, 0, 128, 32), "Start Game")) {
+			NetworkManager.instance.StartServer (matchName, maxPlayers);
 			ToMenu ("Lobby");
 		}
 
@@ -75,7 +79,7 @@ public class MenuManager : MonoBehaviour {
 		if (Network.isServer) 
 		{
 			if(GUI.Button (new Rect(Screen.width - 128, Screen.height - 64, 128, 32), "Start Match")){
-				NetworkManager.instance.networkView.RPC ("LoadLevel", RPCMode.All, "test");
+				NetworkManager.instance.networkView.RPC ("LoadLevel", RPCMode.All, "mansion");
 			}
 
 		}
@@ -93,9 +97,11 @@ public class MenuManager : MonoBehaviour {
 			GUILayout.Box(pl.playerName);
 			GUILayout.EndHorizontal();
 		}
+		GUILayout.EndArea ();
 	}
 
 	void MatchList () {
+		MasterServer.RequestHostList("RainbowSix");
 		if (GUI.Button (new Rect (0, 0, 128, 32), "Refresh")) {
 			MasterServer.RequestHostList("RainbowSix");
 		}
